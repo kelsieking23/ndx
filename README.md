@@ -3,6 +3,7 @@ Creates custom index files for GROMACS
 
 
 **ndx.py** creates custom index files for GROMACS. The script makes use of selection strings that are intuitive, making complex selections easier.
+
 Some notes on selection:
 * Can select many GROMACS default index groups: backbone, mainchain, sidechain, protein, nonprotein, solvent, lipids, ions
 * Can select by atom type (CA, C, O, N, H, P, S), or by specific atom name
@@ -15,6 +16,8 @@ Some notes on selection:
 Positional arguments:
 
 **gro** _(.gro)_ Structure file
+
+Other arguments:
 
 **-selections** _(str)_ Selection string(s). Each individual selection must be enclosed in quotations. Run with option --show-examples to see demonstrations.
 
