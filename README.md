@@ -27,7 +27,7 @@ Positional arguments:
 **-h, --help** Show help message and quit
 
 ## Examples
-* Selecting by chain (Chain A and B in a single index): `python ndx.py structure.gro -selections "p1 or p2"' -o index.ndx`
+* Selecting by chain (Chain A and B in a single index): `python ndx.py structure.gro -selections "p1 or p2" -o index.ndx`
 * Selecting by chain (Chain A and B in different indices): `python ndx.py structure.gro -selections "p1" "p2" -o index.ndx`
 * Selecting by residue index: `python ndx.py structure.gro -selections "ri1-ri15" "ri16-ri30" -o index.ndx`
 * Selecting by residue index, only backbone `python ndx.py structure.gro -selections "(ri1-ri15) and backbone" "(ri16-ri30) and backbone"`
